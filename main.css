@@ -25,6 +25,7 @@ body{
     background-color: antiquewhite;
     width: 40%;
     min-width: 500px;
+    max-width: 500px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
