@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(212, 153, 255);
+    font-family: "Poppins", sans-serif;
+}
+
+.title{
+    color: #380d3a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 700;
+    top: 20%;
+    left: 50%;
+}
+
+.container{
+    background-color: antiquewhite;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 50px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+.timer{
+    position: relative;
+    width: 80%;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    left: 10%;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(49, 89, 110);
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+sub{
+    font-size: 15px;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+.start{
+    background-color: rgb(30, 216, 216);
+}
+.pause{
+    background-color: rgb(255, 159, 56);
+}
+.reset{
+    background-color: rgb(238, 71, 71);
+}
+
+.start:hover{
+    background-color: rgb(51, 231, 231);
+    box-shadow: 0 0 10px rgb(0,0,0, 0.5);
+}
+.pause:hover{
+    background-color: rgb(255, 132, 1);
+    box-shadow: 0 0 10px rgb(0,0,0, 0.5);
+}
+.reset:hover{
+    background-color: rgb(253, 34, 34);
+    box-shadow: 0 0 10px rgb(0,0,0, 0.5);
+}
